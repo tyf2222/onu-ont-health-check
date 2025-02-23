@@ -5,9 +5,16 @@ import time
 import re
 import sys
 def initi():
-    print("intsall lib")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "colorama"])
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "netmiko"])
+    try:
+      import colorama
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "colorama"])
+    
+    try:
+        import netmiko
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "netmiko"])
+
 initi()
 
 from colorama import init, Fore
