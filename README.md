@@ -68,6 +68,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For any issues or help, contact the author:
 
 TikTok: @taifallhyby
+
 Email: tyfhmyd2@gmail.com
 
 
