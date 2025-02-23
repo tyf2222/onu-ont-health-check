@@ -25,9 +25,9 @@ This Python script is designed to check the health status of ONT (Optical Networ
 
 To install the necessary dependencies, simply run the script, and it will automatically install `colorama` and `netmiko`:
 
-```bash
+## Example Output
 
-#Example Output
+```bash
 
 python script_name.py
 ********************************************
@@ -57,5 +57,17 @@ Rx Power: -20.2 (dBm)
                       device health
 Device state is: Critical
 ----------------------------------------------------
+
+```
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+For any issues or help, contact the author:
+
+TikTok: @taifallhyby
+Email: tyfhmyd2@gmail.com
 
 
