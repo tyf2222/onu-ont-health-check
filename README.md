@@ -29,7 +29,7 @@ To install the necessary dependencies, simply run the script, and it will automa
 
 ```bash
 
-python script_name.py
+python run.py
 ********************************************
         This code written by Taif     
         onu/ont Device Check health   
